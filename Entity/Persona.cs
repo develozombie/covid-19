@@ -1,13 +1,13 @@
 namespace COVID.Entity
 {
-    class Persona
+    public class Persona
     {
         public string id { get; set; }
         public string TipoDocumento { get; set; }
         public string DocumentoIdentidad { get; set; }
         public string Nombres { get; set; }
         public string Apellidos { get; set; }
-        public int Edad { get; set; }
+        public string Edad { get; set; }
         public string Sexo { get; set; }        
         public string Antecedentes { get; set; }
         public string Nacionalidad { get; set; }
